@@ -1,0 +1,22 @@
+{
+  "name": "lab3-rest-api",
+  "version": "1.0.0",
+  "description": "Backend Development Fundamentals Lab 3 REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "init-db": "node database.js",
+    "test": "node --test tests/*.test.js"
+  },
+  
+  "keywords": ["express", "sqlite", "rest-api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
+
